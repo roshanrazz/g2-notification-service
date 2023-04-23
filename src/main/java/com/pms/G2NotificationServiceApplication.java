@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Import;
 import com.pms.exception.GlobalExceptionHandler;
 
 @SpringBootApplication
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 @Import(GlobalExceptionHandler.class)
 public class G2NotificationServiceApplication {
 
